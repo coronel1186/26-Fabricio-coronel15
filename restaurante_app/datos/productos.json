@@ -1,0 +1,30 @@
+[
+    {
+        "codigo": "P001",
+        "nombre": "Hamburguesa Especial",
+        "categoria": "Comida Rápida",
+        "precio": 8.50,
+        "stock": 15
+    },
+    {
+        "codigo": "P002",
+        "nombre": "Pizza Familiar Pepperoni",
+        "categoria": "Pizzas",
+        "precio": 14.00,
+        "stock": 10
+    },
+    {
+        "codigo": "P003",
+        "nombre": "Jugo Natural de Naranja",
+        "categoria": "Bebidas",
+        "precio": 2.50,
+        "stock": 30
+    },
+    {
+        "codigo": "P004",
+        "nombre": "Ensalada César",
+        "categoria": "Ensaladas",
+        "precio": 6.00,
+        "stock": 8
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "id_venta": "V001",
+        "identificacion_usuario": "U001",
+        "codigo_producto": "P001",
+        "cantidad": 2,
+        "precio_unitario": 8.50,
+        "total": 17.00,
+        "fecha": "2026-09-21 10:30:00"
+    }
+]
