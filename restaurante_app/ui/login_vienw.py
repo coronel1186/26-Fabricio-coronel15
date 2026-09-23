@@ -24,7 +24,7 @@ class LoginView(tk.Frame):
         card = ttk.Frame(self, padding="25")
         card.place(relx=0.5, rely=0.5, anchor="center")
 
-        logo_file = os.path.join(self.assets_path, "logo.png") if self.assets_path else ""
+        logo_file = os.path.join(self.assets_path, "logo", "logo.png.png") if self.assets_path else ""
         if os.path.exists(logo_file) and Image is not None and ImageTk is not None:
             try:
                 pil_img = Image.open(logo_file).resize((80, 80))

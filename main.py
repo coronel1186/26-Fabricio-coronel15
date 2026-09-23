@@ -29,8 +29,15 @@ class AplicacionRestaurante:
         self._configurar_estilos()
         self.mostrar_login()
 
+    def _configurar_estilos(self) -> None:
+        estilo = ttk.Style(self.root)
+        try:
+            estilo.theme_use("clam")
+        except tk.TclError:
+            pass
+
     def _configurar_icono_ventana(self, ruta_base):
-        ruta_icono = ruta_base / "assets" / "logo.png"
+        ruta_icono = ruta_base / "assets" / "logo" / "logo.png.png"
         if not ruta_icono.exists():
             print(f"no existe: {ruta_icono}")
             return
